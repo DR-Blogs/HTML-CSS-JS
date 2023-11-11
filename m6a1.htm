@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m6a1.css">
+    <script src="m6a1.js" defer></script>
+    <title>COP 2830 Advanced HTML M6A1 Assessment</title>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <ul id="nav">
+        <li><a href="#" onclick="browserTest()">Browser Test</a></li>
+        <li><a href="#" onclick="htmlFeatureTest()">HTML Feature Test</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Mobile Tests</a>
+            <div class="dropdown-content mobile-tests">
+                <a href="#" onclick="screenResolution()">Screen Resolution</a>
+                <a href="#" onclick="screenOrientation()">Screen Orientation</a>
+            </div>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Canvas Tests</a>
+                <div class="dropdown-content canvas-tests">
+                    <a href="#" onclick="generalSupport()">General Support</a>
+                    <a href="#" onclick="textSupport()">Text Support</a>
+                    <a href="#" onclick="drawCanvas()">Draw Canvas</a>
+                </div>
+            </li>
+    </ul>
+
+    <!-- Heading -->
+    <div id="heading">
+        <h1>Click a menu item above to test various web features</h1>
+    </div>
+
+    <!-- Output Div -->
+    <div id="output">
+        <!-- This div will be empty initially -->
+    </div>
+
+    <!-- Canvas Element -->
+    <canvas id="myCanvas" width="0" height="0"></canvas>
+
+</body>
+</html>
+
+
+
+<!-- 
+ Your HTML file will consist of the following four sections:
+a. An unordered list, to be used as your navigation menu with an id of “nav”
+i. styled through CSS
+b. A div with an id of “heading”
+i. This div can consist of the following line with the H1 tag, “Click a menu item
+above to test various web features”
+c. A div with an id of “output”
+i. This div will be empty
+d. A canvas element with an id of “myCanvas”
+i. The canvas will initially be set to a width and height of 0.
+-->

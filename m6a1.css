@@ -1,0 +1,75 @@
+/* Updated styles for the navigation menu */
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Updated background color for the navigation bar */
+    overflow: hidden;
+    width: 100%; /* Make the navigation bar span the entire width of the screen */
+}
+
+#nav li {
+    float: left;
+    width: 25%; /* Make each menu item take up 25% of the navigation bar */
+}
+
+#nav li a {
+    display: block;
+    color: white; /* Updated text color for better visibility on the dark background */
+    text-align: center;
+    padding: 14px 0; /* Center the text vertically within each menu item */
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #555; /* Updated background color on hover for better visibility */
+}
+
+/* Updated styles for the dropdown menu */
+.dropdown-content {
+    background-color: #333; /* Updated background color for dropdown menu */
+}
+
+.dropdown-content a {
+    color: white; /* Updated text color for better visibility on the dark background */
+}
+
+.dropdown-content a:hover {
+    background-color: #555; /* Updated background color on hover for better visibility */
+}
+
+/* Updated styles for the dropdown menu */
+.dropdown-content.mobile-tests ,.dropdown-content.canvas-tests {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Updated background color for dropdown menu */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content.mobile-tests a ,.dropdown-content.canvas-tests a{
+    color: white; /* Updated text color for better visibility on the dark background */
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content.mobile-tests a:hover ,.dropdown-content.canvas-tests a:hover{
+    background-color: #555; /* Updated background color on hover for better visibility */
+}
+
+.dropdown:hover .mobile-tests ,.dropdown:hover .canvas-tests {
+    display: block; /* Display the sub-items on hover */
+}
+
+
+
+
+
+/* 
+Create a CSS enabled menu which runs across the top of your page. This menu bar must be able
+to adapt to various screen sizes so that the information does not get cut-off. This can be done by
+either dynamically adjusting the font properties to allow for a better fit, or dynamically stacking
+menu items based upon the size of the screen. The general coloring, font, and other styling
+choices will be left up to you.
+ */

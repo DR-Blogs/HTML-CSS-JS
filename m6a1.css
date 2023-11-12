@@ -1,3 +1,5 @@
+/* Filename: m6a1.htm  Author: Dylan Raguseo   Date: 11/12/2023 */
+
 /* Updated styles for the navigation menu */
 #nav {
     list-style-type: none;
@@ -28,14 +30,22 @@
 /* Updated styles for the dropdown menu */
 .dropdown-content {
     background-color: #333; /* Updated background color for dropdown menu */
+    position: absolute;
+    text-align: center;
 }
 
 .dropdown-content a {
     color: white; /* Updated text color for better visibility on the dark background */
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .dropdown-content a:hover {
     background-color: #555; /* Updated background color on hover for better visibility */
+    display: block;
+    top: 100%; /* Position the dropdown below the nav item */
+    text-align: center;
 }
 
 /* Updated styles for the dropdown menu */
@@ -61,15 +71,3 @@
 .dropdown:hover .mobile-tests ,.dropdown:hover .canvas-tests {
     display: block; /* Display the sub-items on hover */
 }
-
-
-
-
-
-/* 
-Create a CSS enabled menu which runs across the top of your page. This menu bar must be able
-to adapt to various screen sizes so that the information does not get cut-off. This can be done by
-either dynamically adjusting the font properties to allow for a better fit, or dynamically stacking
-menu items based upon the size of the screen. The general coloring, font, and other styling
-choices will be left up to you.
- */

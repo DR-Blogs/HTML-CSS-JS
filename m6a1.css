@@ -1,73 +1,72 @@
 /* Filename: m6a1.htm  Author: Dylan Raguseo   Date: 11/12/2023 */
 
-/* Updated styles for the navigation menu */
+/* Navigation menu */
 #nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Updated background color for the navigation bar */
+    background-color: #333; 
     overflow: hidden;
-    width: 100%; /* Make the navigation bar span the entire width of the screen */
+    width: 100%; 
 }
 
 #nav li {
     float: left;
-    width: 25%; /* Make each menu item take up 25% of the navigation bar */
+    width: 25%; 
 }
 
 #nav li a {
     display: block;
-    color: white; /* Updated text color for better visibility on the dark background */
+    color: white; 
     text-align: center;
-    padding: 14px 0; /* Center the text vertically within each menu item */
+    padding: 14px 0; 
     text-decoration: none;
 }
 
 #nav li a:hover {
-    background-color: #555; /* Updated background color on hover for better visibility */
+    background-color: #555; 
 }
 
-/* Updated styles for the dropdown menu */
+/* Dropdown menu */
 .dropdown-content {
-    background-color: #333; /* Updated background color for dropdown menu */
+    background-color: #333; 
     position: absolute;
     text-align: center;
 }
 
 .dropdown-content a {
-    color: white; /* Updated text color for better visibility on the dark background */
+    color: white; 
     display: block;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .dropdown-content a:hover {
-    background-color: #555; /* Updated background color on hover for better visibility */
+    background-color: #555; 
     display: block;
-    top: 100%; /* Position the dropdown below the nav item */
+    top: 100%; 
     text-align: center;
 }
 
-/* Updated styles for the dropdown menu */
 .dropdown-content.mobile-tests ,.dropdown-content.canvas-tests {
     display: none;
     position: absolute;
-    background-color: #333; /* Updated background color for dropdown menu */
+    background-color: #333; 
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content.mobile-tests a ,.dropdown-content.canvas-tests a{
-    color: white; /* Updated text color for better visibility on the dark background */
+    color: white; 
     padding: 12px 16px;
     display: block;
     text-decoration: none;
 }
 
 .dropdown-content.mobile-tests a:hover ,.dropdown-content.canvas-tests a:hover{
-    background-color: #555; /* Updated background color on hover for better visibility */
+    background-color: #555; 
 }
 
 .dropdown:hover .mobile-tests ,.dropdown:hover .canvas-tests {
-    display: block; /* Display the sub-items on hover */
+    display: block; 
 }

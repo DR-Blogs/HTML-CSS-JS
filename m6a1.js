@@ -76,12 +76,12 @@ function generalSupport() {
     displayResultsNoList(canvasSupport, "Canvas General Support");
 }
 
-// // Test canvas text support
+//Test canvas text support
 function textSupport() {
     // Clear previous content
     clearOutput();
     clearCanvas();
-
+    
     const canvas = document.createElement('canvas');
     const context = canvas.getContext('2d');
 
